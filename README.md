@@ -35,7 +35,7 @@ npm i -g cloudinary-bulk-video-downloader
 
 ## Example
 
-Download all images from the cloud:
+Download all videos from the cloud:
 
 ```
 cloudinary-bulk-video-downloader --api-key API_KEY --api-secret API_SECRET --cloud-name demo_cloud --output /tmp/cloudinary_dump
