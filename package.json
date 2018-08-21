@@ -1,7 +1,7 @@
 {
-  "name": "cloudinary-bulk-image-downloader",
+  "name": "cloudinary-bulk-video-downloader",
   "version": "0.0.1",
-  "description": "Downloads all your uploaded images from Cloudinary",
+  "description": "Downloads all your uploaded videos from Cloudinary",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -13,7 +13,7 @@
     "url": "https://github.com/krivachy/cloudinary-bulk-image-downloader/issues"
   },
   "bin": {
-    "cloudinary-bulk-image-downloader": "./index.js"
+    "cloudinary-bulk-video-downloader": "./index.js"
   },
   "homepage": "https://github.com/krivachy/cloudinary-bulk-image-downloader#readme",
   "dependencies": {
