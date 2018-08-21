@@ -1,6 +1,6 @@
-# Cloudinary Bulk Image Downloader
+# Cloudinary Bulk Video Downloader
 
-Downloads all your images from a Cloudinary cloud.
+Downloads all your videos from a Cloudinary cloud.
 
 The Cloudinary provided [generate_archive](https://cloudinary.com/documentation/image_upload_api_reference#generate_archive) endpoint has a limitation of 1000 resources or 100MBs.
 This tool gets around that by reading from the admin API and downloading images one by one. 
@@ -8,15 +8,15 @@ This tool gets around that by reading from the admin API and downloading images 
 ## Install
 
 ```
-npm i -g cloudinary-bulk-image-downloader
+npm i -g cloudinary-bulk-video-downloader
 ```
 
 ## Usage
 
 ```
-  # cloudinary-bulk-image-downloader --help
+  # cloudinary-bulk-video-downloader --help
 
-  Usage: cloudinary-bulk-image-downloader [options]
+  Usage: cloudinary-bulk-video-downloader [options]
 
 
   Options:
@@ -38,5 +38,5 @@ npm i -g cloudinary-bulk-image-downloader
 Download all images from the cloud:
 
 ```
-cloudinary-bulk-image-downloader --api-key API_KEY --api-secret API_SECRET --cloud-name demo_cloud --output /tmp/cloudinary_dump
+cloudinary-bulk-video-downloader --api-key API_KEY --api-secret API_SECRET --cloud-name demo_cloud --output /tmp/cloudinary_dump
 ```
