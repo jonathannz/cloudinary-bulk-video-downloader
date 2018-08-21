@@ -57,7 +57,7 @@ if (fs.existsSync(program.output)) {
 // Guarantee slash at end
 const baseOutputDirectory = _.trimEnd(program.output, '/') + '/';
 const adminApiBaseUrl = `https://api.cloudinary.com/v1_1/${program.cloudName}`;
-const imagesApi = adminApiBaseUrl + '/resources/image/upload';
+const imagesApi = adminApiBaseUrl + '/resources/video/upload';
 const maxResults = program.maxResult || 500;
 const maxParallelism = program.maxParallelism || 5;
 const axiosInstance = axios.create({
